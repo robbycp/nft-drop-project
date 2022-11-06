@@ -1,6 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+/app/node_modules
 /node_modules
 /.pnp
 .pnp.js
@@ -27,10 +28,17 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
 
 # vercel
 .vercel
+.next/
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# solana
+cache.json
+config.json
+sugar.log

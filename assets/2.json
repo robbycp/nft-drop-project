@@ -1,0 +1,20 @@
+{
+  "name": "Kudaterbang",
+  "symbol": "KDTB",
+  "description": "Kudaterbang NFT build with metaplex solana. This is the number 3/10.",
+  "image": "2.png",
+  "attributes": [
+    {
+      "trait_type": "Number",
+      "value": "2"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "2.png",
+        "type": "image/png"
+      }
+    ]
+  }
+}
