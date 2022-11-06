@@ -29,7 +29,6 @@ const Home = () => {
             </div>
         </div>
     );
-    console.log('wallet', wallet)
 
     const renderBody = wallet.publicKey ? <CandyMachine walletAddress={wallet} /> : renderNotConnectedContainer()
 

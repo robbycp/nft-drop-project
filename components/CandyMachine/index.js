@@ -346,7 +346,6 @@ const CandyMachine = ({ walletAddress }) => {
 
     useEffect(() => {
         if (candyMachine?.state.goLiveData) {
-            console.log('candyMachine', candyMachine)
             // Get the current date and dropDate in a JavaScript Date object
             const currentDate = new Date();
             const dropDate = new Date(candyMachine.state.goLiveData * 1000);
